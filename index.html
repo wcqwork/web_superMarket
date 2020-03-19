@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>HOME</title>
+		<link rel="stylesheet" type="text/css" href="css/layout.css" />
+		<link rel="stylesheet" type="text/css" href="css/header_top.css" />
+		<link rel="stylesheet" href="css/header_nav_list.css">
+		<link rel="stylesheet" type="text/css" href="css/banner_nav_list.css"/>
+		<link rel="stylesheet" type="text/css" href="css/container_picList.css"/>
+		<link rel="stylesheet" type="text/css" href="css/fotter.css"/>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/btnclick.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/backto_top_btn.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/header_pic.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/container_picList.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/neko_zero.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			#neko {
+				width: 100px;
+				height: 100px;
+				background: #ddd;
+				position: fixed;
+				right: 0px;
+				bottom: 50px;
+				cursor: move;
+				box-sizing: border-box;
+				border: 4px solid #66cc66;
+				border-radius: 50%;
+				background: url('xm.jpg') no-repeat center center;
+				background-size: 100% 100%;
+				overflow: hidden;
+				z-index: 100;
+			}
+		</style>
+		<script type="text/javascript">
+			$(function(){
+			
+			});
+		</script>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<header>
+			<!-- 头部内容导航 -->
+			<div class="header_title grid">
+				<div class="grid-cell-1"></div> <!-- 空白占位 -->
+				<div class="header_left grid-cell-2">
+					<img src="images/logo1.png" >
+				</div>
+				<div class="grid-cell-2"></div><!-- 空白占位 -->
+				<div class="header_nav grid-cell-2">
+					<ul class="grid">
+						<li class="grid-cell-1"><a href="register.html">Create Account</a></li>
+						<li class="grid-cell-1"><a href="login.html">Login</a></li>
+						<li class="grid-cell-1"><a href="#">Help</a></li>
+					</ul>
+				</div>
+				<div class="grid-cell-2"></div><!-- 空白占位 -->
+				<div class="grid-cell-1 header_title_shopcat">
+					<img src="images/shop.png" alt="">
+				</div>
+			</div>
+			<!-- 搜索框 -->
+			<div class="header_bottom grid">
+				<div class="grid-cell-3 header_bottom_phone">
+					<img src="images/phone.png" />
+					在线订购或致电我们 : (+0123) 234 567
+				</div>
+				<div class="grid-cell-1 header_bottom_name">云超市</div>
+				<div class="header_bottom_sousuo grid-cell-3">
+					<input type="text" placeholder="Search for a Product..." class="header_bottom_sousuo_text">
+					<input type="submit" class="header_bottom_sousuo_submit" value="   ">
+				</div>
+			</div>
+			<!-- 菜单栏 -->
+			<div class="men_nav grid">
+				<div class="grid-cell-1"></div>
+				<div class="nav_list grid-cell-6">
+					<ul class="grid">
+						<li class="grid-cell-1 item1">
+							<a href="index.html" class="nav_head">
+								<span>HOME</span>
+							</a>
+						</li>
+						<li class="grid-cell-1 item2">
+							<a href="#" class="nav_head">
+								<span>杂货<img src="images/sanjiao.png" alt=""></span>
+							</a>
+							<div class="nav_head_list nav_head_list1">
+								<a href="#" class="nav_1 item">All Groceries</a>
+								<a href="#" class="item">杏仁</a>
+								<a href="#" class="item">腰果</a>
+								<a href="#" class="item">干果</a>
+								<a href="#" class="item">穆赫瓦斯</a>
+								<a href="#" class="item">大米及制品</a>
+							</div>
+
+						</li>
+						<li class="grid-cell-1 item3">
+							<a href="#" class="nav_head">
+								<span>家庭<img src="images/sanjiao.png" alt=""></span>
+							</a>
+							<div class="nav_head_list nav_head_list2">
+								<a href="#" class="nav_1 item">All Household</a>
+								<a href="#" class="item">炊具</a>
+								<a href="#" class="item">洗涤塔</a>
+								<a href="#" class="item">除尘布</a>
+								<a href="#" class="item">拖把</a>
+								<a href="#" class="item">厨具</a>
+							</div>
+						</li>
+						<li class="grid-cell-1 item4">
+							<a href="#" class="nav_head">
+								<span>个人护理<img src="images/sanjiao.png" alt=""></span>
+							</a>
+							<div class="nav_head_list nav_head_list3">
+								<a href="#" class="nav_1 item">Baby Care</a>
+								<a href="#" class="item">婴儿香皂</a>
+								<a href="#" class="item">婴儿护理配件</a>
+								<a href="#" class="item">婴儿油和洗发水</a>
+								<a href="#" class="item">婴儿爽身粉</a>
+								<a href="#" class="item">尿布和湿巾</a>
+							</div>
+						</li>
+						<li class="grid-cell-1 item5">
+							<a href="#" class="nav_head">
+								<span>包装零食<img src="images/sanjiao.png" alt=""></span>
+							</a>
+							<div class="nav_head_list nav_head_list4">
+								<a href="#" class="nav_1 item">All Accessories</a>
+								<a href="#" class="item">婴儿食品</a>
+								<a href="#" class="item">甜品</a>
+								<a href="#" class="item">饼干</a>
+								<a href="#" class="item">早餐谷物</a>
+								<a href="#" class="item">罐头食品</a>
+							</div>
+						</li>
+						<li class="grid-cell-1 item6">
+							<a href="#" class="nav_head">
+								<span>饮料<img src="images/sanjiao.png" alt=""></span>
+							</a>
+							<div class="nav_head_list nav_head_list5">
+								<a href="#" class="nav_1 item">Tea & Coeffe</a>
+								<a href="#" class="item">绿茶</a>
+								<a href="#" class="item">绿茶</a>
+								<a href="#" class="item">研磨咖啡</a>
+								<a href="#" class="item">凉茶</a>
+								<a href="#" class="item">速溶咖啡</a>
+							</div>
+						</li>
+						<li class="grid-cell-1 item7">
+							<a href="#" class="nav_head">
+								<span>美食家</span>
+							</a>
+						</li>
+						<li class="grid-cell-1 item8">
+							<a href="#" class="nav_head">
+								<span>优惠</span>
+							</a>
+						</li>
+						<li class="grid-cell-1 item9">
+							<a href="#" class="nav_head">
+								<span>联系</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="grid-cell-1"></div>
+			</div>
+			<div class="men_nav_img">
+				<img src="images/11.jpg" alt="">
+			</div>
+			<!-- 返回顶部按钮 -->
+			<div><img src="images/arrow.png" class="backto_top_btn"></div>
+		</header>
+		<!-- 内容部分 -->
+		<div class="container">
+			<!-- 商品热卖优惠展示 -->
+			<div class="banner_list">
+				<div class="banner_list_title">
+					热卖商品
+				</div>
+				<div class="banner_list_nav">
+					<div class="banner_list_nav_button grid">
+						<div class="grid-cell-1 "><input type="button" class="btn_item1 btnitem1" name="" id="" value="广告优惠" /></div>
+						<div class="grid-cell-1 "><input type="button" class="btn_item2" name="" id="" value="今日优惠" /></div>
+					</div>
+					<div class="banner_list_nav_on">
+					<div class="banner_list_nav_text">
+						<div class="banner_list_nav_text_item">本周刊登广告</div>
+						<div class="banner_list_nav_text_item1">我们已将所有广告优惠汇总到一个地方，因此您不会错过很多。</div>
+					</div>
+					<div class="banner_nav">
+						<!-- banner列表1 -->
+						<div class="banner_nav_item grid">
+							<dl class="grid-cell-1">
+								<div><img src="images/offer.png" ></div>
+								<dt><img src="images/1.png"></dt>
+								<dd class="banner_name">塔塔盐</dd>
+								<dd><img src="images/star1.png">
+									<img src="images/star1.png">
+									<img src="images/star1.png">
+									<img src="images/star1.png">
+									<img src="images/star.png"></dd>
+								<dd><span class="banner_newPrice">20.99</span>&nbsp;&nbsp;&nbsp;<span class="banner_price">美元35.00美元</span></dd>
+								<dd><span class="btnok">添加到购物车</span></dd>
+							</dl>
+							<dl class="grid-cell-1">
+								<div><img src="images/offer.png" ></div>
+								<dt><img src="images/2.png"></dt>
+								<dd class="banner_name">命运向日葵</dd>
+								<dd><img src="images/star1.png">
+									<img src="images/star1.png">
+									<img src="images/star1.png">
+									<img src="images/star1.png">
+									<img src="images/star.png"></dd>
+								<dd><span class="banner_newPrice">28.99</span>&nbsp;&nbsp;&nbsp;<span class="banner_price">美元35.00美元</span></dd>
+								<dd><span class="btnok">添加到购物车</span></dd>
+							</dl>
+							<dl class="grid-cell-1">
+								<div><img src="images/offer.png" ></div>
+								<dt><img src="images/3.png"></dt>
+								<dd class="banner_name">Aashirvaad-Atta</dd>
+								<dd><img src="images/star1.png">
+									<img src="images/star1.png">
+									<img src="images/star1.png">
+									<img src="images/star1.png">
+									<img src="images/star.png"></dd>
+								<dd><span class="banner_newPrice">40.99</span>&nbsp;&nbsp;&nbsp;<span class="banner_price">美元35.00美元</span></dd>
+								<dd><span class="btnok">添加到购物车</span></dd>
+							</dl>
+							<dl class="grid-cell-1">
+								<div><img src="images/offer.png" ></div>
+								<dt><img src="images/2.png"></dt>
+								<dd class="banner_name">命运向日葵</dd>
+								<dd><img src="images/star1.png">
+									<img src="images/star1.png">
+									<img src="images/star1.png">
+									<img src="images/star1.png">
+									<img src="images/star.png"></dd>
+								<dd><span class="banner_newPrice">28.99</span>&nbsp;&nbsp;&nbsp;<span class="banner_price">美元35.00美元</span></dd>
+								<dd><span class="btnok">添加到购物车</span></dd>
+							</dl>
+						</div>
+					    <!-- banner列表2 -->
+						 <div class="banner_nav_item grid">
+					     	<dl class="grid-cell-1">
+					     		<div><img src="images/offer.png" ></div>
+					     		<dt><img src="images/4.png"></dt>
+					     		<dd class="banner_name">桑潘-达达尔</dd>
+					     		<dd><img src="images/star1.png">
+					     			<img src="images/star1.png">
+					     			<img src="images/star1.png">
+					     			<img src="images/star1.png">
+					     			<img src="images/star.png"></dd>
+					     		<dd><span class="banner_newPrice">35.99</span>&nbsp;&nbsp;&nbsp;<span class="banner_price">美元35.00美元</span></dd>
+					     		<dd><span class="btnok">添加到购物车</span></dd>
+					     	</dl>
+					     	<dl class="grid-cell-1">
+					     		<div><img src="images/offer.png" ></div>
+					     		<dt><img src="images/5.png"></dt>
+					     		<dd class="banner_name">帕里斯糖</dd>
+					     		<dd><img src="images/star1.png">
+					     			<img src="images/star1.png">
+					     			<img src="images/star1.png">
+					     			<img src="images/star1.png">
+					     			<img src="images/star.png"></dd>
+					     		<dd><span class="banner_newPrice">30.99</span>&nbsp;&nbsp;&nbsp;<span class="banner_price">美元35.00美元</span></dd>
+					     		<dd><span class="btnok">添加到购物车</span></dd>
+					     	</dl>
+					     	<dl class="grid-cell-1">
+					     		<div><img src="images/offer.png" ></div>
+					     		<dt><img src="images/6.png"></dt>
+					     		<dd class="banner_name">藏红花金</dd>
+					     		<dd><img src="images/star1.png">
+					     			<img src="images/star1.png">
+					     			<img src="images/star1.png">
+					     			<img src="images/star1.png">
+					     			<img src="images/star.png"></dd>
+					     		<dd><span class="banner_newPrice">80.99</span>&nbsp;&nbsp;&nbsp;<span class="banner_price">美元35.00美元</span></dd>
+					     		<dd><span class="btnok">添加到购物车</span></dd>
+					     	</dl>
+							<dl class="grid-cell-1">
+								<div><img src="images/offer.png" ></div>
+								<dt><img src="images/2.png"></dt>
+								<dd class="banner_name">命运向日葵</dd>
+								<dd><img src="images/star1.png">
+									<img src="images/star1.png">
+									<img src="images/star1.png">
+									<img src="images/star1.png">
+									<img src="images/star.png"></dd>
+								<dd><span class="banner_newPrice">28.99</span>&nbsp;&nbsp;&nbsp;<span class="banner_price">美元35.00美元</span></dd>
+								<dd><span class="btnok">添加到购物车</span></dd>
+							</dl>
+					     </div>
+					</div>
+				    </div>
+				</div>
+			</div>
+		    <!-- 内容图片展示区域 -->
+			<div class="banner_pic_img">
+				<div class="banner_pic_img_show">
+					<img src="images/b1.jpg">
+					<ul class="banner_pic_img_show_button">
+						<li class="b3"></li>
+						<li class="b1"></li>
+						<li class="b3"></li>
+					</ul>
+				</div>
+				<div class="banner_pic_img_list grid">
+					<div class="banner_pic_img_list_left grid-cell-1">
+						<div class="banner_pic_img_list_left_top"><img src="images/p2.jpg" ></div>
+						<div class="banner_pic_img_list_left_item grid">
+							<div  class="grid-cell-1 banner_pic_img_list_left_item_bottom_1"><img src="images/p3.jpg"></div>
+							<div  class="grid-cell-1 banner_pic_img_list_left_item_bottom_2"><img src="images/p4.jpg"></div>
+						</div>
+					</div>
+					<div class="banner_pic_img_list_right grid-cell-1">
+						<img src="images/111.jpg" >
+					</div>
+				</div>
+			</div>
+         
+		</div>
+		<!-- 底部简介信息 -->
+		<div class="footer">
+			<div class="fotter_list">
+			<div class="grid fotter_list_item">
+				<ul class="grid-cell-1">
+					<li class="fotter_list_head">联系</li>
+					<li><a href="#"><img src="images/dzhi.png" >&nbsp;&nbsp;&nbsp;&nbsp;纽约市<br />第四街区1234k Avenue</a></li>
+					<li><a href="#"><img src="images/xinfeng.png" >&nbsp;&nbsp;&nbsp;info@example.com</a></li>
+					<li><a href="#"><img src="images/dianh.png" >&nbsp;&nbsp;&nbsp;+1234 567 567</a></li>
+				</ul>
+				<ul class="grid-cell-1">
+				    <li class="fotter_list_head">信息</li>
+					<li><a href="#"><img src="images/jiantou.png" >&nbsp;&nbsp;关于我们</a></li>
+					<li><a href="#"><img src="images/jiantou.png" >&nbsp;&nbsp;联系我们</a></li>
+					<li><a href="#"><img src="images/jiantou.png" >&nbsp;&nbsp;简码</a></li>
+					<li><a href="#"><img src="images/jiantou.png" >&nbsp;&nbsp;常见问题</a></li>
+					<li><a href="#"><img src="images/jiantou.png" >&nbsp;&nbsp;特殊产品</a></li>
+				</ul>
+				<ul class="grid-cell-1 fotter_list_item_1">
+					<li class="fotter_list_head">类别</li>
+					<li><a href="#"><img src="images/jiantou.png" >&nbsp;&nbsp;杂货</a></li>
+					<li><a href="#"><img src="images/jiantou.png" >&nbsp;&nbsp;家庭</a></li>
+					<li><a href="#"><img src="images/jiantou.png" >&nbsp;&nbsp;个人护理</a></li>
+					<li><a href="#"><img src="images/jiantou.png" >&nbsp;&nbsp;包装零食</a></li>
+					<li><a href="#"><img src="images/jiantou.png" >&nbsp;&nbsp;饮料</a></li>
+				</ul>
+				<ul class="grid-cell-1 fotter_list_item_1">
+					<li class="fotter_list_head">轮廓</li>
+					<li><a href="#"><img src="images/jiantou.png" >&nbsp;&nbsp;商店</a></li>
+					<li><a href="#"><img src="images/jiantou.png" >&nbsp;&nbsp;我的车</a></li>
+					<li><a href="#"><img src="images/jiantou.png" >&nbsp;&nbsp;登录</a></li>
+					<li><a href="#"><img src="images/jiantou.png" >&nbsp;&nbsp;创建账号</a></li>
+				</ul>
+			</div>
+		    <div class="fotter_list_ower">版权所有©2017.公司名称保留所有权利。</div>
+			</div>
+		    <div class="fotter_bottom">
+				<div class="fotter_bottom_img">
+					<div class="grid">
+					<a href="" class="fotter_bottom_img_left grid-cell-1"><img src="images/fotterleft.png" ></a>	
+					<a href="" class="fotter_bottom_img_rigth grid-cell-1"><img src="images/card.png" ></a>	
+					</div>
+				</div>
+			</div>
+		</div>
+	    <div id="neko"></div>
+	</body>
+</html>

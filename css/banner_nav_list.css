@@ -1,0 +1,223 @@
+.banner_list {
+		width: 80%;
+		text-align: center;
+		margin: 100px auto;
+	}
+
+	.banner_list_title {
+		width: 25%;
+		font-size: 3em;
+		font-weight: bold;
+		border-bottom: 3px solid blueviolet;
+		margin: 0px auto;
+		padding-bottom: 20px;
+	}
+
+	.banner_list_nav {
+		width: 100%;
+		border: 1px solid #c0bebe;
+		margin-top: 80px;
+	}
+
+	.banner_list_nav_button input {
+		width: 100%;
+		height: 50px;
+		font-size: 1.5em;
+		outline: none;
+		border: 0;
+		font-weight: bold;
+		background-color: #f5f5f5;
+		border-bottom: 3px solid white;
+	}
+
+	.banner_list_nav_button .btnitem1 {
+		background-color: #fe9126;
+		color: white;
+
+	}
+
+	.banner_list_nav_button .btn_item2:hover {
+		background-color: #fe9126;
+		color: white;
+		cursor: pointer;
+	}
+
+	.banner_list_nav_button .btn_item1:hover {
+		background-color: #fe9126;
+		color: white;
+		cursor: pointer;
+	}
+
+	.banner_list_nav_text {
+		text-align: left;
+		margin-left: 5%;
+		margin-top: 4%;
+	}
+
+	.banner_list_nav_text_item {
+		font-size: 1.5em;
+		font-weight: 1000;
+		margin-bottom: 3%;
+	}
+
+	.banner_list_nav_text_item1 {
+		color: gray;
+	}
+
+	.banner_nav_item {
+		width: 90%;
+		margin: 50px auto;
+	}
+
+	.banner_nav_item dl {
+		height: auto;
+		background-color: white;
+		border: 1px solid #c0bebe;
+		margin-left: 20px;
+		position: relative;
+		padding-bottom: 30px;
+		cursor: pointer;
+	}
+
+	.banner_nav_item dl div {
+		position: absolute;
+		right: 0px;
+		top: 0px;
+	}
+
+	.banner_nav_item dl div img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.banner_nav_item dt img {
+		width: 60%;
+		height: 60%;
+		margin-top: 20px;
+	}
+
+	.banner_nav_item dd {
+		margin-top: 20px;
+	}
+
+	.banner_nav .banner_price {
+		text-decoration: line-through;
+		font-size: 10px;
+	}
+
+	.banner_nav .banner_newPrice {
+		font-weight: bold;
+	}
+
+	.banner_nav .btnok {
+		display: block;
+		width: 70%;
+		height: 35px;
+		background-color: #3399cc;
+		text-align: center;
+		margin: 0px auto;
+		cursor: pointer;
+		line-height: 35px;
+		color: white;
+		padding-left: 2px;
+		padding-right: 2px;
+		font-size: 15px;
+	}
+
+	.banner_nav_item dl:hover .btnok {
+		background-color: #fe9126;
+	}
+
+	.banner_nav_item dl:hover {
+		-webkit-filter: drop-shadow(0 0 15px #ffab58);
+		filter: drop-shadow(0 0 15px #ee8b29);
+	}
+
+	/* 设置延迟加载效果 */
+	.banner_list_nav_load_1 {
+		animation-delay: 50ms;
+		animation-direction: alternate;
+		animation-duration: 800ms;
+		animation-name: load1;
+	}
+
+	.banner_list_nav_load {
+		animation-delay: 50ms;
+		animation-direction: alternate;
+		animation-duration: 800ms;
+		animation-name: load;
+	}
+
+	@keyframes load {
+		from {
+			opacity: 0;
+		}
+
+		50% {
+			opacity: 0.5;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+
+	@keyframes load1 {
+		from {
+			opacity: 0;
+		}
+
+		50% {
+			opacity: 0.5;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+
+	@media screen and (min-width: 580px) and (max-width: 800px) {
+		.banner_list_nav {
+			margin: 0px auto;
+			width: 90%;
+		}
+		.banner_nav{
+			width:90%;
+			margin: 0px auto;
+			/* border: 1px solid black; */
+		}
+		.banner_nav_item dl{
+			width: 30%;
+			height: 20%;
+			margin-bottom: 10px;
+		}
+	}
+
+	@media only screen and (max-width: 980px) {
+		.banner_list_title {
+			width: 40%;
+			font-size: 1.5em;
+			margin-top: -55px;
+			padding-bottom: 3px;
+			font-weight: normal;
+			border: none;
+		}
+
+		.banner_list_nav {
+			margin-top: 30px;
+			font-size: 12px;
+		}
+
+		.banner_list {
+			width: 100%;
+		}
+		.banner_nav_item dl{
+			margin-bottom: 10px;
+		}
+	}
+	@media only screen and (max-width: 500px){
+		.banner_nav_item dl:hover {
+			-webkit-filter: drop-shadow(0 0 0px white);
+			filter: drop-shadow(0 0 0px white);
+		}
+	}

@@ -1,0 +1,65 @@
+.banner_pic_img_show img{
+			width: 100%;
+			height: 100%;
+		}
+		.banner_pic_img_list{
+			width: 80%;
+			margin: 50px auto;
+			overflow: hidden;
+		}
+		.banner_pic_img_list img{
+			width: 100%;
+			height: 100%;
+			cursor: pointer;
+			transition: all 0.6s;
+			
+		}
+		.banner_pic_img_list img:hover{
+			 transform: scale(1.2);
+		}
+	   .banner_pic_img_list_left{
+		   width: 45%;
+		   margin-right: 25px;
+	   }
+	   .banner_pic_img_list_left_top{
+		   height: 55%;
+		   overflow: hidden;
+	   }
+	   .banner_pic_img_list_right{
+		   width: 45%;
+		   overflow: hidden;
+	   }
+	   .banner_pic_img_list_left_item{
+		   margin-top: 5%;
+		   height: 45%;
+	   }
+	   .banner_pic_img_list_left_item_bottom_2{
+		   margin-left: 3%;
+		   overflow: hidden;
+	   }
+	   .banner_pic_img_list_left_item_bottom_1{
+		    overflow: hidden;
+	   }
+	  .banner_pic_img .grid{
+		   flex-wrap: nowrap;
+	   }
+	   .banner_pic_img_show_button{
+		   overflow: hidden;
+		   width:100px;
+		   text-align: center;
+		   margin: 0px auto;
+		   position: relative;
+		   top: 20px;
+	   }
+	   .banner_pic_img_show  .banner_pic_img_show_button li{
+		   float: left;
+		   margin-left: 12px;
+		   width:12px;
+		   height: 12px;
+		   background-color: green;
+		   border-radius: 100px;
+		   cursor: pointer;
+	   }
+	   .banner_pic_img_show  .banner_pic_img_show_button .item{
+		   background-color: yellow;
+	   }

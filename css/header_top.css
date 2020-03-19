@@ -1,0 +1,119 @@
+.header_title {
+	background-color: #333333;
+	height: 60px;
+	line-height: 60px;
+	width: 100%;
+	color: white;
+	cursor: pointer;
+}
+
+.header_left {
+	position: relative;
+	top: 5px;
+}
+
+.header_title_shopcat img {
+	width: 30px;
+	height: 30px;
+	margin-top: 15px;
+}
+
+.header_bottom {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	color: gray;
+}
+
+.header_bottom_name {
+	color: #fe9126;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: left;
+}
+
+.header_bottom_phone img {
+	position: relative;
+	top: 4px;
+}
+
+.header_bottom_phone {
+	font-size: 14px;
+    position: relative;
+    top: 10px;
+}
+
+.header_bottom_sousuo .header_bottom_sousuo_text {
+	width: 50%;
+	height: 30px;
+	border: 1px solid gray;
+}
+
+.header_bottom_sousuo {
+	text-align: left;
+	position: relative;
+	top: 10px;
+}
+
+.header_bottom_sousuo_submit {
+	width: 45px;
+	height: 38px;
+	border-radius: 5px;
+	margin-left: 5px;
+	background: url(../images/sousuo.png) no-repeat;
+	z-index: 10;
+	background-size: 80% 80%;
+	background-position: center;
+	background-color: #fe9126;
+	cursor: pointer;
+}
+
+.header_bottom_sousuo_submit:hover {
+	background-color: #333333;
+	transition: all 0ms linear 100ms;
+}
+
+.backto_top_btn {
+	position: fixed;
+	right: 25px;
+	bottom: 18px;
+	cursor: pointer;
+}
+@media only screen and (max-width: 500px){
+	#neko{
+		display: none;
+	}
+
+}
+@media only screen and (max-width: 800px) {
+    .header_bottom{
+		height: 130px;
+		position: relative;
+		top: 5px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.header_bottom_sousuo .header_bottom_sousuo_text{
+		height: 30px;
+		width:70%;
+		border: 1px solid gray;
+	}
+	.header_bottom_name{
+		text-align: center;
+		width: 100%;
+		font-size: 25px;
+	}
+	.header_bottom_sousuo {
+		text-align: center;
+		position: relative;
+		top: 0px;
+	}
+	.header_bottom_phone {
+	    position: relative;
+	    top: 0px;
+	}
+
+	
+}

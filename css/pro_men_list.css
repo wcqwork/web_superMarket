@@ -1,0 +1,160 @@
+body {
+	background-color: white;
+}
+
+/* 顶部地址导航 */
+.pro_container_url {
+	width: 100%;
+	height: 80px;
+	background: #f5f5f5;
+	line-height: 80px;
+	color: gray;
+	font-size: .9em;
+}
+
+.pro_url {
+	color: #3399cc;
+	font-weight: bold;
+}
+
+.pro_url_title {
+	margin-left: 8%;
+}
+
+.pro_home_img {
+	position: relative;
+	top: 8px;
+}
+
+
+/*分类目录*/
+
+.container_nav {
+	width: 80%;
+	margin: 50px auto;
+}
+
+.container_nav_left {
+	border: 1px solid gray;
+
+}
+
+.container_nav_left_title {
+	font-size: 1.5em;
+	font-weight: 700;
+	width: 100%;
+	height: 60px;
+	background-color: #f5f5f5;
+	text-align: center;
+	line-height: 60px;
+}
+
+.container_nav_left a {
+	color: gray;
+	display: block;
+	margin-top: 15px;
+	margin-left: 10%;
+}
+
+.container_nav_left a:hover {
+	color: #3399cc;
+}
+
+.container_nav_left_list {
+	position: relative;
+	left: 30px;
+}
+
+.container_nav_left_top {
+	padding-top: 20px;
+}
+
+.container_nav_left_bottom {
+	padding-bottom: 20px;
+}
+
+
+/* 目录右边图片展示 */
+.container_nav_right_select {
+	text-align: right;
+}
+
+.container_nav_right_select select {
+	height: 35px;
+	border: 1px solid black;
+	margin-left: 2%;
+}
+
+#sel1 {
+	width: 20%;
+}
+
+#sel2 {
+	width: 30%;
+}
+
+.banner_nav_item dl {
+	text-align: center;
+	height: auto;
+}
+
+.container_nav_right_button {
+	width: 100%;
+	position: relative;
+	height: 30px;
+
+}
+
+.container_nav_right_button_item {
+	width: 30%;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.container_nav_right_button_item li {
+	border: 1px solid #dddddd;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	border-left: 0px;
+	cursor: pointer;
+}
+
+.container_nav_right_button_item li:hover {
+	background-color: #eeeeee;
+}
+
+.container_nav_right_button a {
+	color: #212121;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+.container_nav_right_button_item .container_nav_right_button_item1 {
+	border-left: 1px solid #dddddd;
+}
+
+.container_nav_right_button_on {
+	background-color: #ffc229;
+}
+
+.container_nav_right_button_on a {
+	color: white;
+}
+
+.container_nav_right_button_item .container_nav_right_button_on:hover {
+	background-color: #ffc229;
+}
+
+@media only screen and (max-width: 980px) {
+	/* 底部按钮 */
+	.container_nav_right_button_item {
+		width: 60%;
+	}
+	.container_nav_right_select select {
+		position: relative;
+		top: 20px;
+		margin-left: 2%;
+	}
+}

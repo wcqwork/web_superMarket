@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+
+			body {
+				background-image: url(images/bg-01.jpg);
+				background-repeat: no-repeat;
+				background-size: 100%;
+
+			}
+
+			.all {
+				width: 40%;
+				height: 800px;
+				background-color: white;
+				text-align: center;
+				margin: 30px auto;
+				border-radius: 10px;
+
+			}
+
+			.all .title {
+				font-size: 2.5em;
+				font-weight: 200;
+				color: #333333;
+			}
+
+			.table {
+				padding-top: 80px;
+				width: 75%;
+				margin: 0px auto;
+			}
+
+			.table_user {
+				text-align: left;
+				margin-top: 60px;
+			}
+
+			.table_user_item {
+				width: 100%;
+				border-bottom: 2px solid #d9d9d9;
+				transition: all 500ms ease 0s;	
+			}
+
+			.table_user_item input {
+				width: 90%;
+				height: 50px;
+				border: 0px;
+				outline: none;
+				padding-left: 15px;
+				color: #bed8ff;
+				font-size: 15px;
+				caret-color:black;
+			}
+
+			.table_user_item img {
+				width: 20px;
+				height: 20px;
+			}
+
+			.table_user div {
+				margin-top: 20px;
+			}
+
+			.table_user_text {
+				font-size: 0.9em;
+			}
+
+			.table_user_fogrt {
+				text-align: right;
+				color: #95667d;
+				font-size: 0.9em;
+			}
+
+			.table_user_btn {
+				text-align: center;
+
+			}
+
+			.table_user_btn input {
+				width: 100%;
+				height: 60px;
+				border: 0px;
+				border-radius: 20px;
+				margin-top: 20px;
+				background-image: linear-gradient(to right, #20bee2, #de1afb);
+				color: white;
+				font-size: 1.1em;
+				cursor: pointer;
+			}
+			.table_bottom{
+				text-align: center;
+				padding-top: 20px;
+			}
+			.table_bottom div{
+				padding-top: 10px;
+				padding-bottom: 20px;
+			}
+			.table_bottom_text{
+				color: gray;
+				font-size: 12px;
+				
+			}
+			.table_bottom_register a{
+				font-size: 16px;
+				text-decoration: none;
+				cursor: pointer;
+			}
+			@media only screen and (max-width: 980px){
+				.all{
+					width: 100%;
+					margin-top: 0px;
+				}
+				.table_user_item input {
+					width: 80%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="all">
+			<div class="table">
+				<p class="title">登录</p>
+				<div class="table_user">
+					<div class="table_user_text">用户名</div>
+					<div class="table_user_item table_user_item1"><img src="images/zc_06.jpg"><input type="text" name=""  value="" placeholder="请输入用户名" /></div>
+					<div class="table_user_text">密码</div>
+					<div class="table_user_item table_user_item2"><img src="images/zc_16.jpg"><input type="password" name=""  value="" placeholder="请输入密码"/></div>
+					<div class="table_user_fogrt">忘记密码?</div>
+					<div class="table_user_btn"><input type="button" name=""  value="登&nbsp;&nbsp;录" /></div>
+					<div class="table_bottom">
+						<div class="table_bottom_text"><a href="index.html">第三方登录</a></div>
+						<img src="images/weixin.png" >
+						<img src="images/QQ.png" >
+						<img src="images/xinlang.png" >
+						<div class="table_bottom_register"><a href="register.html">立即注册</a></div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>

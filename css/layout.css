@@ -1,0 +1,52 @@
+.grid {
+	/*设置弹性布局容器*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.grid-cell-1,
+.grid-cell-2,
+.grid-cell-3,
+.grid-cell-4,
+.grid-cell-5,
+.grid-cell-6 {
+	flex-shrink: 1;
+}
+
+.grid-cell-1 {
+	flex-grow: 1;
+}
+
+.grid-cell-2 {
+	flex-grow: 2;
+}
+
+.grid-cell-3 {
+	flex-grow: 3;
+}
+
+.grid-cell-4 {
+	flex-grow: 4;
+}
+
+.grid-cell-5 {
+	flex-grow: 5;
+}
+
+.grid-cell-6 {
+	flex-grow: 6;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+li{
+	list-style: none;
+}
+body{
+	background-color:#f5f5f5;
+}
